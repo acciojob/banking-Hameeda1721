@@ -13,6 +13,9 @@ public class StudentAccount extends BankAccount{
         this.setMinBalance(0);
 
     }
+    public String getInstitutionName() {
+        return institutionName;
+    }
 
     private void setInstitutionName(String institutionName) {
         this.institutionName = institutionName;
